@@ -1,6 +1,4 @@
-# /.obot/server.yaml
-name: twist-the-knife-collection
-description: Collection of useful agent skills to burn something to the ground.
-runtime: skill
-source:
-  directory: .github/skills
+name: adversarial-skills-server
+description: MCP Server serving adversarial roasting prompts.
+runtime: python
+main: server.py
