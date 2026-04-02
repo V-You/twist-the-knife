@@ -1,5 +1,6 @@
-name: twist-the-knife
-description: Adversarial Agent Skills
+# /.obot/server.yaml
+name: twist-the-knife-collection
+description: Collection of useful agent skills to burn something to the ground.
 runtime: skill
 source:
   directory: .github/skills

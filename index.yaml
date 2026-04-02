@@ -1,6 +1,0 @@
-# /catalog.yaml
-name: Twist the Knife Registry
-description: Adversarial skills for deep architectural critiques.
-roots:
-  - .github/skills/twist-the-knife
-  - .github/skills/roast-my-idea

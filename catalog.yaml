@@ -1,0 +1,8 @@
+# /catalog.yaml
+name: V-You Adversarial Skills
+description: "A collection of hyper-critical agent skills for deep architectural and business roasting."
+version: 1.0.0
+# The 'roots' key tells Obot which subdirectories contain valid SKILL.md or server.yaml files
+roots:
+  - .github/skills/twist-the-knife
+  - .github/skills/roast-my-idea
