@@ -1,0 +1,7 @@
+[project]
+name = "adversarial-skills"
+version = "0.1.0"
+dependencies = ["mcp"]
+
+[project.scripts]
+adversarial-skills = "server:main"

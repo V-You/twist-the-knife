@@ -1,0 +1,19 @@
+from mcp.server.fastmcp import FastMCP
+from pathlib import Path
+
+mcp = FastMCP("Adversarial Skills")
+
+# Read the skills
+knife_path = Path(__file__).parent / ".github" / "skills" / "twist-the-knife" / "SKILL.md"
+knife_content = knife_path.read_text() if knife_path.exists() else "Skill not found."
+
+@mcp.prompt()
+def twist_the_knife() -> str:
+    """Trigger the cynical senior architect persona."""
+    return knife_content
+
+def main():
+    mcp.run()
+
+if __name__ == "__main__":
+    main()

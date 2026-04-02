@@ -1,4 +1,0 @@
-name: adversarial-skills-server
-description: MCP Server serving adversarial roasting prompts.
-runtime: python
-main: server.py
