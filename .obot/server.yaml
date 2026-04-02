@@ -1,0 +1,5 @@
+name: twist-the-knife
+description: Adversarial Agent Skills
+runtime: skill
+source:
+  directory: .github/skills
