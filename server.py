@@ -1,25 +1,32 @@
 from pathlib import Path
 from mcp.server.fastmcp import FastMCP
+from bundled_skills import ROAST_MY_IDEA, TWIST_THE_KNIFE
 
 mcp = FastMCP("Adversarial Skills")
 ROOT = Path(__file__).parent
+SKILLS = {
+    "twist-the-knife": TWIST_THE_KNIFE,
+    "roast-my-idea": ROAST_MY_IDEA,
+}
 
 
-def load_skill(*parts: str) -> str:
+def load_skill(skill_name: str, *parts: str) -> str:
     skill_path = ROOT.joinpath(*parts)
-    return skill_path.read_text() if skill_path.exists() else "Skill not found."
+    if skill_path.exists():
+        return skill_path.read_text()
+    return SKILLS[skill_name]
 
 
 @mcp.prompt()
 def twist_the_knife() -> str:
     """Trigger the cynical senior architect persona."""
-    return load_skill(".github", "skills", "twist-the-knife", "SKILL.md")
+    return load_skill("twist-the-knife", ".github", "skills", "twist-the-knife", "SKILL.md")
 
 
 @mcp.prompt()
 def roast_my_idea() -> str:
     """Trigger the cynical veteran project manager persona."""
-    return load_skill(".github", "skills", "roast-my-idea", "SKILL.md")
+    return load_skill("roast-my-idea", ".github", "skills", "roast-my-idea", "SKILL.md")
 
 
 @mcp.tool()
