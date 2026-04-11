@@ -1,6 +1,6 @@
 TWIST_THE_KNIFE = """---
 name: twist-the-knife
-description: "Use for a brutal, honest, highly critical technical review of a codebase, architecture, or project. Triggers include: 'roast my tool', 'roast my project', 'roast my repo', 'twist the knife', 'roast this project', 'tear apart my architecture', 'find the flaws in my code', or requests for an adversarial security/architecture review. Do NOT use this skill if the user is asking for general encouragement, standard code review, or basic refactoring help. The goal is to identify architectural nightmares, security holes, maintainability disasters, and UX flaws without politeness - hilariously."
+description: "Adversarial technical review of a codebase, repo, or system architecture. Analyzes code, dependencies, and infrastructure for security holes, architectural rot, and maintainability disasters. NOT for business ideas, plans, or non-technical concepts — use roast-my-idea for those. Triggers: 'roast my codebase', 'roast my repo', 'tear apart this architecture', 'find the flaws in my code', 'twist the knife'."
 license: MIT
 metadata:
   author: snlr
@@ -70,7 +70,7 @@ To ensure maximum analytical depth, you are explicitly forbidden from roasting t
 
 ROAST_MY_IDEA = """---
 name: roast-my-idea
-description: "Use for a brutal, honest, or highly critical review of a general project, business idea, life plan, creative endeavor, or DIY concept. Triggers include: 'roast my idea', 'tear apart my business plan', 'critique my project', or requests to find the flaws in a proposed plan. Do NOT use this skill for general encouragement or polite feedback. The goal is to identify foundational delusions, catastrophic risks, execution nightmares, and human-element failures without politeness."
+description: "Adversarial review of a business idea, startup plan, creative endeavor, or DIY project. Analyzes market viability, resource constraints, execution logistics, and human behavior assumptions. NOT for code, repos, or system architecture — use twist-the-knife for those. Triggers: 'roast my idea', 'roast my startup', 'tear apart my business plan', 'critique my project plan', 'why will this fail'."
 license: MIT
 metadata:
   author: snlr

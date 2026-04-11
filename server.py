@@ -30,14 +30,14 @@ def roast_my_idea() -> str:
 
 
 @mcp.tool()
-def get_twist_the_knife_skill() -> str:
-    """Return the twist-the-knife skill instructions."""
+def roast_codebase() -> str:
+    """Adversarial technical review of a codebase, repo, or system architecture. Finds security holes, architectural rot, and maintainability disasters. Use this for code and infrastructure, NOT for business ideas or plans."""
     return twist_the_knife()
 
 
 @mcp.tool()
-def get_roast_my_idea_skill() -> str:
-    """Return the roast-my-idea skill instructions."""
+def roast_idea() -> str:
+    """Adversarial review of a business idea, startup plan, or creative endeavor. Finds flawed assumptions, resource traps, and execution nightmares. Use this for ideas and plans, NOT for code or repos."""
     return roast_my_idea()
 
 
