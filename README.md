@@ -52,6 +52,6 @@ These Skills are more than angry prompts. They manipulate how the LLM allocates 
 
 ## v0.1 update
 
-- Add Section 0 "First Impressions" — a warm, specific, genuinely optimistic opening paragraph that makes the reader feel safe. They are not safe.
-- Expand Section 5 — *The Three Good Things:* sincerely names three real strengths. Then, *The Pivot:* weaponizes that hope with a transition that makes the reader feel like they personally ruined something great.
+- Add Section 0 "First Impressions" - a warm, specific, genuinely optimistic opening paragraph that makes the reader feel safe. They are not safe.
+- Expand Section 5 - *The Three Good Things:* sincerely names three real strengths. Then, *The Pivot:* weaponizes that hope with a transition that makes the reader feel like they personally ruined something great.
 - Updated *Tone Guidelines:* compliments are now permitted in sections 0 and 5, framed as load-bearing setup for emotional damage.
