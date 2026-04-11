@@ -60,9 +60,9 @@ Or use the trigger keywords (see above).
 
 These Skills manipulate how the LLM allocates its compute budget:
 
-* **Banned critiques:** LLM is banned from mentioning UI, spelling, or missing tests. This forces the model to analyze the actual logic.
-* **Pre-analysis directives:** A "chain of thought" step forces the agent to trace the execution boundary or resource flow *before* generating text.
-* **Appeal to authority:** AI is forced to look up actual historical failed ventures, to crush the "my idea is entirely unique" delusion.
+* **Banned critiques:** LLM won't mention UI, spelling, or missing tests. Forces the model to analyze the actual logic.
+* **Pre-analysis:** A "chain of thought" step traces the execution boundary or resource flow *before* response is generated.
+* **Appeal to authority:** AI finds historical failed ventures, to crush the "my idea is unique" delusion.
 
 ## v0.1 update
 
