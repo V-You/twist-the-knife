@@ -1,6 +1,7 @@
 ---
 name: twist-the-knife
 description: "Use for a brutal, honest, highly critical technical review of a codebase, architecture, or project. Triggers include: 'roast my tool', 'roast my project', 'roast my repo', 'twist the knife', 'roast this project', 'tear apart my architecture', 'find the flaws in my code', or requests for an adversarial security/architecture review. Do NOT use this skill if the user is asking for general encouragement, standard code review, or basic refactoring help. The goal is to identify architectural nightmares, security holes, maintainability disasters, and UX flaws without politeness - hilariously."
+argument-hint: "[URL]"
 license: MIT
 metadata:
   author: snlr

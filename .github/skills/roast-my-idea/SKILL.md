@@ -1,6 +1,7 @@
 ---
 name: roast-my-idea
 description: "Use for a brutal, honest, or highly critical review of a general project, business idea, life plan, creative endeavor, or DIY concept. Triggers include: 'roast my idea', 'tear apart my business plan', 'critique my project', or requests to find the flaws in a proposed plan. Do NOT use this skill for general encouragement or polite feedback. The goal is to identify foundational delusions, catastrophic risks, execution nightmares, and human-element failures without politeness."
+argument-hint: "[URL]"
 license: MIT
 metadata:
   author: snlr
