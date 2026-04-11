@@ -31,13 +31,17 @@ Designed for software engineers, systems architects, and developers. It ignores 
 - See [Overview how to do this via Obot.ai](https://www.linkedin.com/pulse/how-make-your-skills-go-viral-cicd-pipeline-brain-stefan-laetzer-adlae)
 - (Clone repo first, to be in control of auth)
 
-### Global installation (all projects on local machine)
-1. Download the Skills from the repo's `.github/skills` folder
-2. Move it to your global skills directory.
+### Global
 
-### Project installation (specific project on local machine)
-1. Download the Skills from the repo's `.github/skills` folder
-2. Move it to your local skills directory
+1. Installation for all projects on local machine:
+2. Download the Skills from the repo's `.github/skills` folder
+3. Move it to your global skills directory.
+
+### Project
+
+1. Installation for a specific project on local machine:
+2. Download the Skills from the repo's `.github/skills` folder
+3. Move it to your local skills directory
     - Claude Code: `.claude/skills/`
     - VS Code: `.github/skills/`
     - ...
