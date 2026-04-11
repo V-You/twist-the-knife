@@ -49,3 +49,9 @@ These Skills are more than angry prompts. They manipulate how the LLM allocates 
 * **Banned critiques:** LLM is banned from mentioning UI, spelling, or missing tests. This forces the model to analyze the actual logic.
 * **Pre-analysis directives:** A "chain of thought" step forces the agent to trace the execution boundary or resource flow *before* generating text.
 * **Appeal to authority:** AI is forced to look up actual historical failed ventures, to crush the "my idea is entirely unique" delusion.
+
+## v0.1 update
+
+- Add Section 0 "First Impressions" — a warm, specific, genuinely optimistic opening paragraph that makes the reader feel safe. They are not safe.
+- Expand Section 5 — *The Three Good Things:* sincerely names three real strengths. Then, *The Pivot:* weaponizes that hope with a transition that makes the reader feel like they personally ruined something great.
+- Updated *Tone Guidelines:* compliments are now permitted in sections 0 and 5, framed as load-bearing setup for emotional damage.
