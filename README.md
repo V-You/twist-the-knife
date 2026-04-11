@@ -61,11 +61,8 @@ Or use the trigger keywords (see above).
 These Skills manipulate how the LLM allocates its compute budget:
 
 * **Banned critiques:** LLM won't mention UI, spelling, or missing tests. Forces the model to analyze the actual logic.
-* **Pre-analysis:** A "chain of thought" step traces the execution boundary or resource flow *before* response is generated.
+* **Pre-analysis:** Traces the execution boundary or resource flow *before* response is generated.
 * **Appeal to authority:** AI finds historical failed ventures, to crush the "my idea is unique" delusion.
-
-## v0.1 update
-
-- Add Section 0 "First Impressions" - a warm, specific, genuinely optimistic opening paragraph that makes the reader feel safe. They are not safe.
-- Expand Section 5 - *The Three Good Things:* sincerely names three real strengths. Then, *The Pivot:* weaponizes that hope with a transition that makes the reader feel like they personally ruined something great.
-- Updated *Tone Guidelines:* compliments are now permitted in sections 0 and 5, framed as load-bearing setup for emotional damage.
+* **Compliments** are banned via *Tone Guidelines*, except as load-bearing setup for emotional damage:
+    - Section 0 adds a warm, specific, genuinely optimistic opening paragraph that makes the user feel safe. They are not safe.
+    - Section 5 sincerely names three real strengths to incite hope for a biased review. Weaponizes that hope to makes the user feel like they personally ruined something great.
